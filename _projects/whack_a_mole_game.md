@@ -5,8 +5,6 @@ date: 2021-01-01
 permalink: /projects/whack-a-mole-game/
 ---
 
-# Project
-
 The primary goal of this project is to develop a digital game, Whack-A-Mole, using a VGA connector and a BASYS3 FPGA. The project aims to enhance digital design abilities, focusing on debugging, glitch removal, and the implementation of sequential and combinatorial design elements to create a glitch-free game.
 
 ## Design Specifications:
