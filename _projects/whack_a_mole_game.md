@@ -1,6 +1,7 @@
 ---
 title: 'Whack-A-Mole-Game'
-date: 2021-1-1
+collection: projects
+date: 2021-01-01
 permalink: /projects/whack-a-mole-game/
 ---
 
