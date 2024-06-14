@@ -23,7 +23,7 @@ Short Bio
 >I was graduated from Kipaş Science High School as the valedictorian with **OÖBP: 99.88/100**. In the university entrence examination (YKS), I was placed **441<sup>st</sup>** among 2 million students in 2020. 
 >
 >**Activities**: 
->- Athletism
+>- Athletics
 >- Badminton
 
 
