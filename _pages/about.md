@@ -25,7 +25,8 @@ Short Bio
 >**Activities**: 
 >- Athletism
 >- Badminton
------
+
+
 >__2020 - 2024__ | Bilkent University Electrical and Electronics Engineering  🇹🇷 
 >-----
 >
@@ -37,7 +38,8 @@ Short Bio
 >**Clubs and Societies**
 >- Social Awareness Projects: Joined educative activities with children from underdeveloped schools in Ankara for 1 year. 
 >- Animal Welfare Club: Actively helped and fed animals in the Bilkent Univeristy campus. 
-----
+
+
 >__2024 - 2026__ | École Polytechnique Fédérale de Lausanne 🇨🇭
 >-----
 >
