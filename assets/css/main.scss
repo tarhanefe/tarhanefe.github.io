@@ -14,7 +14,6 @@
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 
 @import "reset";
 @import "base";
