@@ -35,7 +35,7 @@ Short Bio
 >I graduated from the Electrical and Electronics Engineering Department at Bilkent University with a **GPA of >3.95/4.0**, ranking **2<sup>nd</sup>** among 220 students in the cohort of 2024. Throughout my undergraduate education, >I developed skills in Machine Learning, Deep Learning, and Signal Processing methods for images and signals.
 >
 >**Clubs and Societies**
->- Social Awareness Projects: Joined educative activities with children from underdeveloped schools around Ankara for 1 year. 
+>- Social Awareness Projects: Joined educative activities with children from underdeveloped schools in Ankara for 1 year. 
 >- Animal Welfare Club: Actively helped and fed animals in the Bilkent Univeristy campus. 
 ----
 >__2024 - 2026__ | École Polytechnique Fédérale de Lausanne 🇨🇭
