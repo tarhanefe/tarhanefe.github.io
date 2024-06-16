@@ -68,17 +68,24 @@ During my work on processing OTDR data, I utilized classical and efficient signa
     display: flex;
     overflow: hidden;
     white-space: nowrap;
+    position: relative;
+    width: 100%;
+    height: 100px; /* Adjust as needed */
   }
 
-  .scroll-container img {
-    width: 40px;
-    height: 40px;
-    margin: 0 10px;
-    animation: scroll 10s linear infinite;
+  .scroll-content {
+    display: flex;
+    animation: scroll 20s linear infinite;
+  }
+
+  .scroll-content img {
+    width: 60px; /* Make the icons a bit bigger */
+    height: 60px;
+    margin: 0 20px; /* Adjust gap between icons */
     transition: transform 0.3s;
   }
 
-  .scroll-container img:hover {
+  .scroll-content img:hover {
     transform: scale(1.5);
   }
 
@@ -89,12 +96,14 @@ During my work on processing OTDR data, I utilized classical and efficient signa
 </style>
 
 <div class="scroll-container">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" alt="MATLAB"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"/>
+  <div class="scroll-content">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" alt="MATLAB"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"/>
+  </div>
 </div>
