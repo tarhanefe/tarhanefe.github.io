@@ -44,7 +44,7 @@ author_profile: true
 
   .timeline-item .timeline-content {
     position: relative;
-    background: #98FF98; /* Mint color */
+    background: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -75,7 +75,7 @@ author_profile: true
     background: #fff;
     border: 2px solid #ccc;
     border-radius: 50%;
-    box-shadow: 0 0 0 3px #98FF98; /* Match the mint color */
+    box-shadow: 0 0 0 3px #f9f9f9;
   }
 
   .timeline-item:nth-child(odd):before {
