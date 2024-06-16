@@ -100,44 +100,28 @@ Coding Skills
 
 <div class="scroll-container">
   <div class="scroll-content">
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/python/python-original.svg" alt="Python"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/pytorch/pytorch-original.svg" alt="PyTorch"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/scikitlearn/scikitlearn-original.svg" alt="SkLearn"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/pandas/pandas-original.svg" alt="Pandas"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg" alt="Scikit-Learn"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" alt="MATLAB"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/firebase/firebase-original.svg" alt="Firebase"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/latex/latex-original.svg" alt="LaTeX"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" alt="LaTeX"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/r/r-original.svg" alt="R"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="R"/>
     <!-- Duplicate the icons for infinite scrolling effect -->
-
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/python/python-original.svg" alt="Python"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/pytorch/pytorch-original.svg" alt="PyTorch"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/scikitlearn/scikitlearn-original.svg" alt="SkLearn"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/pandas/pandas-original.svg" alt="Pandas"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikit-learn/scikit-learn-original.svg" alt="Scikit-Learn"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" alt="MATLAB"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/firebase/firebase-original.svg" alt="Firebase"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/latex/latex-original.svg" alt="LaTeX"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" alt="LaTeX"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/r/r-original.svg" alt="R"/>
-
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/python/python-original.svg" alt="Python"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/pytorch/pytorch-original.svg" alt="PyTorch"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/scikitlearn/scikitlearn-original.svg" alt="SkLearn"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/pandas/pandas-original.svg" alt="Pandas"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" alt="MATLAB"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/firebase/firebase-original.svg" alt="Firebase"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/latex/latex-original.svg" alt="LaTeX"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C"/>
-    <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/r/r-original.svg" alt="R"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="R"/>
   </div>
 </div>
