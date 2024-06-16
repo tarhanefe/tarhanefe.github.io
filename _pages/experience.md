@@ -49,8 +49,8 @@ author_profile: true
 >   <img width="150" alt="Resim1" src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/e1c5b5c8-f3f8-400f-a75f-fd8717455309">
 > </p>
 
-Coding Skills
-==
+## Coding Skills
+
 
 <style>
   .scroll-container {
