@@ -70,18 +70,18 @@ During my work on processing OTDR data, I utilized classical and efficient signa
     white-space: nowrap;
     position: relative;
     width: 50%;
-    height: 150px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
   }
 
   .scroll-content {
     display: flex;
-    animation: scroll 20s linear infinite;
+    animation: scroll 100s linear infinite;
   }
 
   .scroll-content img {
     width: 60px; /* Make the icons a bit bigger */
     height: 60px;
-    margin: 0 20px; /* Adjust gap between icons */
+    margin: 0 30px; /* Adjust gap between icons */
     transition: transform 0.3s;
   }
 
