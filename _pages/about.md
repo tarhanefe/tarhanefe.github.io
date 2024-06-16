@@ -33,7 +33,8 @@ Short Bio
 >__2024 - 2026__ | École Polytechnique Fédérale de Lausanne 🇨🇭
 >-----
 >
-><p align="center">
-><img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/340fa420-8203-403c-9e16-dcdefc8cdf81" alt="EPFL Logo" width = "200" /></p>
+>
+><p align="center"><a href="https://www.epfl.ch/en/"><img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/340fa420-8203-403c-9e16-dcdefc8cdf81"alt="EPFL Image" width="250" /></a></p>
+>
 >
 >I have been admitted to EPFL for the program MSc in Communication Systems under the IC department as an **Excellence Scholar**. I will pursue my academical carrer in fields related to Machine Learning and Signal Processing. 
