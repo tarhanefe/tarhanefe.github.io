@@ -14,19 +14,6 @@ I am Efe, and I have a keen interest in Machine Learning, Signal Processing, and
 Short Bio
 ======
 
->__2016 - 2020__ | Kipaş Science High School  🇹🇷 
->--------
->
-><p align="center">
-><img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/7b3b27b4-251a-4517-8556-e14975985cb0" alt="Kipaş Logo" width = "200" /></p>
->
->I was graduated from Kipaş Science High School as the valedictorian with **OÖBP: 99.88/100**. In the university entrence examination (YKS), I was placed **441<sup>st</sup>** among 2 million students in 2020. 
->
->**Activities**: 
->- Athletics
->- Badminton
-
-
 >__2020 - 2024__ | Bilkent University Electrical and Electronics Engineering  🇹🇷 
 >-----
 >
@@ -34,6 +21,9 @@ Short Bio
 ><img src="https://github.com/tarhanefe/bilkent-cs115-labs/assets/73281981/353e59fa-4cf5-4be5-b62f-afa383f3fdcd" alt="Bilkent University Logo" width = "200" /></p>
 >
 >I graduated from the Electrical and Electronics Engineering Department at Bilkent University with a **GPA of 3.95/4.0**, ranking **2<sup>nd</sup>** among 220 students in the cohort of 2024. Throughout my undergraduate education, I developed skills in Machine Learning, Deep Learning, and Signal Processing methods for images and signals.
+>**Research and Experience**
+>- Joined to ICONLAB for a year and researched topics related to deep learning applications in medical imagining, focusing on x-ray images and MRI. 
+>- Conducted research on visible light positioning (VLP) under the presence of intelligent reflective surfaces (IRS) with Prof. Dr. Sinan Gezici for 1.5 years. 
 >
 >**Clubs and Societies**
 >- Social Awareness Projects: Joined educative activities with children from underdeveloped schools in Ankara for 1 year. 
