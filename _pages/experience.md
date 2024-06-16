@@ -7,22 +7,23 @@ author_profile: true
 
 {% include base_path %}
 
-Work Experience
---
+## Work Experience
 
 
-2021 June - July | Summer Internship in UMRAM
---
+### 2021 June - July | Summer Internship in UMRAM
+
+<hr style="border: none; height: 2px; background-color: #333; margin: 20px 0;">
+
 <p align="center">
   <a href="https://umram.bilkent.edu.tr/index.php/tr/">
-    <img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/2c877b3c-449a-4e9e-9659-85c75ad05bd8" alt="UMRAM Image" width="200" />
+    <img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/2c877b3c-449a-4e9e-9659-85c75ad05bd8" alt="UMRAM Image" width="300" />
   </a>
 </p>
 
 During my summer internship at UMRAM, I focused on several key projects. I conducted extensive research on deep learning models for computer vision, designed medical X-ray image classifiers using transfer learning techniques with backbone models like EfficientNet, ResNet, and Inception, and developed a robust classifier model for detecting monkeypox disease from image data.
 
 <p align="center">
-  <img width="300" alt="Ekran Resmi 2024-06-16 13 06 53" src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/28e7e38d-42f9-436a-983f-21615b913c1e">
+  <img width="100" alt="Ekran Resmi 2024-06-16 13 06 53" src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/28e7e38d-42f9-436a-983f-21615b913c1e">
 </p>
 
 2022 July - August | Summer Internship in ASELSAN
