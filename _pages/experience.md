@@ -48,8 +48,10 @@ Furthermore, I designed a meandered spiral Archimedean antenna tailored for a sp
   <img width="300" alt="Ekran Resmi 2024-06-16 13 07 30" src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/f77e4dc9-d754-49c7-913f-6bf2542b33bf">
 </p>
 
-2021 April - 2022 June | Part-Time Signal Processing Engineer in NANOTAM
---
+### 2021 April - 2022 June | Part-Time Signal Processing Engineer in NANOTAM
+
+<hr style="border: none; height: 2px; background-color: #333; margin: 20px 0;">
+
 <p align="center">
   <a href="http://www.nanotam.bilkent.edu.tr">
     <img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/d00a4308-5e11-49d7-90b8-ac373b0286a2" alt="NANOTAM Image" width="300" />
@@ -78,13 +80,13 @@ Coding Skills
 
   .scroll-content {
     display: flex;
-    animation: scroll 30s linear infinite;
+    animation: scroll 20s linear infinite;
   }
 
   .scroll-content img {
     width: 80px; /* Make the icons a bit bigger */
     height: 80px;
-    margin: 0 30px; /* Adjust gap between icons */
+    margin: 0 20px; /* Adjust gap between icons */
     transition: transform 0.3s;
   }
 
@@ -94,7 +96,7 @@ Coding Skills
 
   @keyframes scroll {
     0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+    100% { transform: translateX(-100%); }
   }
 </style>
 
@@ -113,5 +115,5 @@ Coding Skills
   </div>
 </div>
 
-Theoretical Skills
-==
+## Theoretical Skills
+
