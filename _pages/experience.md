@@ -69,19 +69,19 @@ During my work on processing OTDR data, I utilized classical and efficient signa
     overflow: hidden;
     white-space: nowrap;
     position: relative;
-    width: 50%;
-    height: 200px; /* Adjust as needed */
+    width: 100%;
+    padding: 20px 0; /* Extra space to prevent clipping when zoomed */
   }
 
   .scroll-content {
     display: flex;
-    animation: scroll 100s linear infinite;
+    animation: scroll 20s linear infinite;
   }
 
   .scroll-content img {
     width: 60px; /* Make the icons a bit bigger */
     height: 60px;
-    margin: 0 30px; /* Adjust gap between icons */
+    margin: 0 20px; /* Adjust gap between icons */
     transition: transform 0.3s;
   }
 
@@ -90,13 +90,22 @@ During my work on processing OTDR data, I utilized classical and efficient signa
   }
 
   @keyframes scroll {
-    0% { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
   }
 </style>
 
 <div class="scroll-container">
   <div class="scroll-content">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" alt="MATLAB"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"/>
+    <!-- Duplicate the icons for infinite scrolling effect -->
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" alt="MATLAB"/>
