@@ -72,8 +72,8 @@ Coding Skills
     overflow: hidden;
     white-space: nowrap;
     position: relative;
-    width: 70%;
-    padding: 20px 0; /* Extra space to prevent clipping when zoomed */
+    width: 100%;
+    padding: 30px 0; /* Extra space to prevent clipping when zoomed */
   }
 
   .scroll-content {
@@ -82,9 +82,9 @@ Coding Skills
   }
 
   .scroll-content img {
-    width: 60px; /* Make the icons a bit bigger */
-    height: 60px;
-    margin: 0 20px; /* Adjust gap between icons */
+    width: 80px; /* Make the icons a bit bigger */
+    height: 80px;
+    margin: 0 30px; /* Adjust gap between icons */
     transition: transform 0.3s;
   }
 
