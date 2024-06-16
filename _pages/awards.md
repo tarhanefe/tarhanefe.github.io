@@ -44,7 +44,7 @@ author_profile: true
 
   .timeline-item .timeline-content {
     position: relative;
-    background: #f9f9f9;
+    background: #98FF98; /* Mint color */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -75,7 +75,7 @@ author_profile: true
     background: #fff;
     border: 2px solid #ccc;
     border-radius: 50%;
-    box-shadow: 0 0 0 3px #f9f9f9;
+    box-shadow: 0 0 0 3px #98FF98; /* Match the mint color */
   }
 
   .timeline-item:nth-child(odd):before {
@@ -91,37 +91,37 @@ author_profile: true
   <li class="timeline-item">
     <div class="timeline-content">
       <h3>École Polytechnique Fédérale de Lausanne Excellence Scholarship</h3>
-      <p>Description of the École Polytechnique Fédérale de Lausanne Excellence Scholarship.</p>
+      <p>Received for high academic achievement upon acceptance to the university. The scholarship includes a monthly living stipend.</p>
     </div>
   </li>
   <li class="timeline-item">
     <div class="timeline-content">
       <h3>TÜBİTAK 2209-B Industry Oriented Projects Support Fund</h3>
-      <p>Description of the TÜBİTAK 2209-B Industry Oriented Projects Support Fund.</p>
+      <p>Received funding for the project 'Wireless Train Signalization,' which was part of the Industrial Design Project course at Bilkent University.</p>
     </div>
   </li>
   <li class="timeline-item">
     <div class="timeline-content">
       <h3>Bilkent University Electrical and Electronics Engineering Academical Excellence Award</h3>
-      <p>Description of the Bilkent University Electrical and Electronics Engineering Academical Excellence Award.</p>
+      <p>Awarded for graduating 2nd in the department with a CGPA of 3.95.</p>
     </div>
   </li>
   <li class="timeline-item">
     <div class="timeline-content">
       <h3>Bilkent University High Honor Student</h3>
-      <p>Description of the Bilkent University High Honor Student.</p>
+      <p>Maintained a CGPA higher than 3.5 each semester at Bilkent University.</p>
     </div>
   </li>
   <li class="timeline-item">
     <div class="timeline-content">
       <h3>Bilkent University Comprehensive Scholarship</h3>
-      <p>Description of the Bilkent University Comprehensive Scholarship.</p>
+      <p>A full comprehensive scholarship covering the annual education and dormitory fees for four years of undergraduate education, along with an additional monthly stipend.</p>
     </div>
   </li>
   <li class="timeline-item">
     <div class="timeline-content">
       <h3>Kipaş Science High School Comprehensive Scholarship</h3>
-      <p>Description of the Kipaş Science High School Comprehensive Scholarship.</p>
+      <p>A full comprehensive scholarship awarded for academic excellence in the high school entrance exam (TEOG).</p>
     </div>
   </li>
 </ul>
