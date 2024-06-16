@@ -69,8 +69,8 @@ During my work on processing OTDR data, I utilized classical and efficient signa
     overflow: hidden;
     white-space: nowrap;
     position: relative;
-    width: 100%;
-    height: 100px; /* Adjust as needed */
+    width: 50%;
+    height: 150px; /* Adjust as needed */
   }
 
   .scroll-content {
