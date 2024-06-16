@@ -17,8 +17,8 @@ Short Bio
 >__2020 - 2024__ | Bilkent University Electrical and Electronics Engineering  🇹🇷 
 >-----
 >
-><p align="center">
-><img src="https://github.com/tarhanefe/bilkent-cs115-labs/assets/73281981/353e59fa-4cf5-4be5-b62f-afa383f3fdcd" alt="Bilkent University Logo" width = "200" /></p>
+><p align="center"><a href="https://w3.bilkent.edu.tr/www/"><img src="https://github.com/tarhanefe/bilkent-cs115-labs/assets/73281981/353e59fa-4cf5-4be5-b62f-afa383f3fdcd"alt="Bilkent Image" width="250" /></a></p>
+>
 >
 >I graduated from the Electrical and Electronics Engineering Department at Bilkent University with a **GPA of 3.95/4.0**, ranking **2<sup>nd</sup>** among 220 students in the cohort of 2024. Throughout my undergraduate education, I developed skills in Machine Learning, Deep Learning, and Signal Processing methods for images and signals.
 >**Research and Experience**
