@@ -18,3 +18,18 @@ author_profile: true
 ### Bilkent University Comprehensive Scholarship
   
 ### Kipaş Science High School Comprehensive Scholarship 
+
+<section id="awards">
+  <h2>Awards</h2>
+  <div class="card-container">
+    <div class="card">
+      <h3>Best Student Award</h3>
+      <p>Bilkent University, 2023</p>
+    </div>
+    <div class="card">
+      <h3>Excellence in Research</h3>
+      <p>IEEE Conference, 2022</p>
+    </div>
+    <!-- Add more cards as needed -->
+  </div>
+</section>
