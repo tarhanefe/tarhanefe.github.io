@@ -78,7 +78,7 @@ Coding Skills
 
   .scroll-content {
     display: flex;
-    animation: scroll 200s linear infinite;
+    animation: scroll 30s linear infinite;
   }
 
   .scroll-content img {
