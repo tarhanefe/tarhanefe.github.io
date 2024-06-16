@@ -7,10 +7,12 @@ author_profile: true
 
 {% include base_path %}
 
-# Work Experience
+Work Experience
+--
 
-## 2021 June - July | Summer Internship in UMRAM
 
+2021 June - July | Summer Internship in UMRAM
+--
 <p align="center">
   <a href="https://umram.bilkent.edu.tr/index.php/tr/">
     <img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/2c877b3c-449a-4e9e-9659-85c75ad05bd8" alt="UMRAM Image" width="200" />
@@ -23,8 +25,8 @@ During my summer internship at UMRAM, I focused on several key projects. I condu
   <img width="300" alt="Ekran Resmi 2024-06-16 13 06 53" src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/28e7e38d-42f9-436a-983f-21615b913c1e">
 </p>
 
-## 2022 July - August | Summer Internship in ASELSAN
-
+2022 July - August | Summer Internship in ASELSAN
+--
 <p align="center">
   <a href="http://www.aselsan.com/tr">
     <img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/f101b6a4-2a71-4530-9ae8-d21ba4af350c" alt="ASELSAN Image" width="200" />
@@ -43,8 +45,8 @@ Furthermore, I designed a meandered spiral Archimedean antenna tailored for a sp
   <img width="500" alt="Ekran Resmi 2024-06-16 13 07 30" src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/f77e4dc9-d754-49c7-913f-6bf2542b33bf">
 </p>
 
-## 2021 April - 2022 June | Part-Time Signal Processing Engineer in NANOTAM
-
+2021 April - 2022 June | Part-Time Signal Processing Engineer in NANOTAM
+--
 <p align="center">
   <a href="http://www.nanotam.bilkent.edu.tr">
     <img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/c831d673-b5d1-471f-80a0-18b67f176e40" alt="NANOTAM Image" width="200" />
@@ -61,7 +63,8 @@ During my work on processing OTDR data, I utilized classical and efficient signa
   <img width="800" alt="Resim2" src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/4f4536c0-bfcb-4bad-83b6-dc5ec2edd5dc">
 </p>
 
-# Coding Skills
+Coding Skills
+==
 
 <style>
   .scroll-container {
@@ -69,13 +72,13 @@ During my work on processing OTDR data, I utilized classical and efficient signa
     overflow: hidden;
     white-space: nowrap;
     position: relative;
-    width: 100%;
+    width: 70%;
     padding: 20px 0; /* Extra space to prevent clipping when zoomed */
   }
 
   .scroll-content {
     display: flex;
-    animation: scroll 20s linear infinite;
+    animation: scroll 200s linear infinite;
   }
 
   .scroll-content img {
