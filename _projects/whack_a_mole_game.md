@@ -1,5 +1,5 @@
 ---
-title: 'Whack-A-Mole-Game'
+title: 'Whack-A-Mole-Game with VHDL on Basys3 Board'
 collection: projects
 date: 2021-01-01
 permalink: /projects/whack-a-mole-game/
