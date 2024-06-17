@@ -57,7 +57,7 @@ Networks.
 <p align="center">
 <img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/da86ae0d-c868-4e9b-9a4d-a00cac79646c" alt="Project Image" width = "400" /></p>
 
-### [Project Report](https://github.com/tarhanefe/tarhanefe.github.io/blob/master/files/report.pdf)
+[Project Report](https://github.com/tarhanefe/tarhanefe.github.io/blob/master/files/report.pdf)
 
-[Link to the Github Repository](https://github.com/tarhanefe/ml-enhanced-vlp-in-irs-assisted-indoorenvs-singleled)
+[Github Repository](https://github.com/tarhanefe/ml-enhanced-vlp-in-irs-assisted-indoorenvs-singleled)
 
