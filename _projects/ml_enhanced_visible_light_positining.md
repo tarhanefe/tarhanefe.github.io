@@ -4,10 +4,7 @@ date: 2024-01-05
 permalink: /projects/ml_enhanced_visible_light_positining
 
 ---
-
-### Abstract 
-
-This research paper explores the use of a single LED
+***Abstract*** - This research paper explores the use of a single LED
 transmitter paired with an intelligent mirror array for power-
 based visible light positioning (VLP) algorithms in a confined
 space. The study compares the performance of various algorithms
@@ -37,8 +34,8 @@ the spatial resolution of their training data. A key advantage
 of these algorithms is their ability to function without prior
 knowledge of the channel model, offering increased flexibility
 in their application.
-### Index Terms: 
-Intelligent Reflective Surfaces, Mirror Ar-
+
+***Index Terms*** - Intelligent Reflective Surfaces, Mirror Ar-
 rays, Visible Light Positioning, Location Estimation, Cram ́er-
 Rao Lower Bound, KNN Regression, Fully Connected Neural
 Networks.
