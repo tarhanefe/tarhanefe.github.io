@@ -4,6 +4,11 @@ date: 2024-01-05
 permalink: /projects/ml_enhanced_visible_light_positining
 
 ---
+This study explores visible light positioning (VLP) using a single LED transmitter and an intelligent mirror array in confined spaces with obstructed line-of-sight (LoS) paths. Various algorithms, including Maximum Likelihood Estimation (MLE), K-Nearest Neighbors (KNN) Regression, and Fully Connected Neural Networks (FCNN), were evaluated for location estimation using non-line-of-sight (NLoS) power. The MLE algorithm showed superior accuracy, while machine learning methods offered flexibility without prior channel model knowledge. Specific intelligent reflecting surface (IRS) orientations significantly enhanced receiver localization.
+
+<p align="center">
+<img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/99d457ca-b127-44f2-9c57-15a36fdeb10a" alt="Project Image" width = "400" /></p>
+
 ***Abstract*** - This research paper explores the use of a single LED
 transmitter paired with an intelligent mirror array for power-
 based visible light positioning (VLP) algorithms in a confined
@@ -47,8 +52,6 @@ Networks.
 <img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/fcd9deef-b7b3-4194-b297-0344804049d0" alt="Project Image" width = "400" /></p>
 <p align="center">
 <img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/c666e84e-52a2-4590-a0bd-d62bb59ab5b2" alt="Project Image" width = "400" /></p>
-<p align="center">
-<img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/99d457ca-b127-44f2-9c57-15a36fdeb10a" alt="Project Image" width = "400" /></p>
 <p align="center">
 <img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/45f1db17-8f1b-4372-b808-4fa6480f35e1" alt="Project Image" width = "400" /></p>
 <p align="center">
