@@ -7,14 +7,19 @@ author_profile: true
 
 {% include base_path %}
 
-<h1>{{ page.title }}</h1>
 
 <div class="project-list">
   {% for project in site.projects reversed %}
     <div class="project-item">
-      <h2><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
-      <p>{{ project.excerpt }}</p>
-      <a href="{{ project.url | relative_url }}" class="btn btn-primary">Read More</a>
+      <a href="{{ project.url | relative_url }}" class="project-link">
+        {% if project.image %}
+          <img src="{{ project.image }}" alt="{{ project.title }} image" class="project-image">
+        {% endif %}
+        <div class="project-content">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.excerpt }}</p>
+        </div>
+      </a>
     </div>
   {% endfor %}
 </div>
@@ -27,29 +32,31 @@ author_profile: true
   }
   .project-item {
     background: #f9f9f9;
-    padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: calc(33.333% - 20px);
     box-sizing: border-box;
+    overflow: hidden;
   }
-  .project-item h2 {
+  .project-link {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+  }
+  .project-image {
+    width: 100%;
+    height: auto;
+  }
+  .project-content {
+    padding: 15px;
+  }
+  .project-item h3 {
     margin-top: 0;
-    font-size: 1.25rem;
+    font-size: 1rem;
+    color: #333;
   }
   .project-item p {
     font-size: 0.9rem;
     color: #666;
-  }
-  .btn {
-    display: inline-block;
-    padding: 8px 12px;
-    background: #007bff;
-    color: #fff;
-    border-radius: 4px;
-    text-decoration: none;
-  }
-  .btn:hover {
-    background: #0056b3;
   }
 </style>
