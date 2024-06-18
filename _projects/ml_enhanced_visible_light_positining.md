@@ -3,6 +3,7 @@ title: 'Machine Learning-Enhanced Visible Light Positioning in IRS-Assisted Indo
 date: 2024-01-05
 permalink: /projects/ml_enhanced_visible_light_positining
 image: "https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/99d457ca-b127-44f2-9c57-15a36fdeb10a"
+teaser: "https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/99d457ca-b127-44f2-9c57-15a36fdeb10a"
 ---
 This study explores visible light positioning (VLP) using a single LED transmitter and an intelligent mirror array in confined spaces with obstructed line-of-sight (LoS) paths. Various algorithms, including Maximum Likelihood Estimation (MLE), K-Nearest Neighbors (KNN) Regression, and Fully Connected Neural Networks (FCNN), were evaluated for location estimation using non-line-of-sight (NLoS) power. The MLE algorithm showed superior accuracy, while machine learning methods offered flexibility without prior channel model knowledge. Specific intelligent reflecting surface (IRS) orientations significantly enhanced receiver localization.
 
