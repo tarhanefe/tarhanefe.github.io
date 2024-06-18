@@ -5,7 +5,7 @@ permalink: /projects/identifusion
 image: "https://github.com/tarhanefe/bilkent-ee486/assets/73281981/d8c7b82f-5ef4-4dce-a799-5e9a24a52fbb"
 ---
 
-IdentiFusion presents a novel multimodal system that synergistically combines Natural Language Processing (NLP) and Computer Vision to match textual face descriptions with corresponding facial images. The system integrates FaceBERT, an NLP model fine-tuned for extracting facial features from text, and LightenedMOON, a Computer Vision model trained on the CelebA dataset for facial attribute recognition from images. This project demonstrates the effective integration of NLP and Computer Vision for applications in image retrieval, matching, and recommendation systems to aid in law enforcement and forensic investigations.
+IdentiFusion introduces a multimodal system combining NLP and Computer Vision to match textual face descriptions with facial images. It integrates FaceBERT for extracting facial features from text and LightenedMOON for recognizing facial attributes from images. This project showcases effective NLP and Computer Vision integration for image retrieval, matching, and recommendation systems, aiding law enforcement and forensic investigations. ￼
 
 ### Authors
 - Efe Tarhan, EEE B.Sc, Bilkent University
