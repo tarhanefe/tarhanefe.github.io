@@ -21,8 +21,8 @@ author_profile: true
 }
 
 .project-image {
-    width: 100px;
-    height: auto;
+    width: auto;
+    height: 200px;
     display: block;
     margin: 10px auto; /* Centers the image horizontally and adds some vertical spacing */
 }
