@@ -56,10 +56,13 @@ The integration of NLP and Computer Vision in IdentiFusion shows promising resul
 
 #### Installation
 1. Clone the repository:
-   ```sh
+   
+   ```
    git clone https://github.com/tarhanefe/bilkent-ee486.git
    cd bilkent-ee486
+   ```
 
 
-- [Github Repository](https://github.com/tarhanefe/bilkent-ee486)
+
+[Github Repository](https://github.com/tarhanefe/bilkent-ee486)
   
