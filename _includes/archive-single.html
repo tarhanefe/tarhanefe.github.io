@@ -1,70 +1,70 @@
----
-layout: archive
-title: "Projects"
-permalink: /projects/
-author_profile: true
----
-
 {% include base_path %}
 
-<div class="projects-container">
-  {% for post in site.projects reversed %}
-    <a class="project-box" href="{{ post.url }}">
-      <div class="project-image">
-        {% if post.header.teaser %}
-          <img src="{{ post.header.teaser }}" alt="{{ post.title }}">
-        {% endif %}
-      </div>
-      <div class="project-content">
-        <h2 class="project-title">{{ post.title }}</h2>
-        <div class="project-date">
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        </div>
-      </div>
-    </a>
-  {% endfor %}
-</div>
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
 
-<style>
-  .projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Adjust gap between project boxes */
-  }
-  .project-box {
-    width: 300px; /* Adjust width of project boxes */
-    height: 400px; /* Set equal height of project boxes */
-    border: 1px solid #ccc; /* Optional: Add border to project boxes */
-    border-radius: 5px; /* Optional: Add border radius to project boxes */
-    overflow: hidden; /* Ensure content doesn't overflow the box */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow to project boxes */
-    display: flex;
-    flex-direction: column;
-    text-decoration: none; /* Remove underline from the link */
-    color: inherit; /* Inherit text color */
-    transition: transform 0.3s ease; /* Add transition for zoom effect */
-  }
-  .project-box:hover {
-    transform: scale(1.05); /* Zoom effect on box when hovered */
-  }
-  .project-image img {
-    width: 100%; /* Make sure the image covers the full width of the box */
-    height: auto; /* Maintain aspect ratio of the image */
-    flex-grow: 1; /* Allow image to grow to fill the box */
-  }
-  .project-content {
-    padding: 15px; /* Add padding inside the project box */
-    flex-grow: 1;
-    position: relative;
-  }
-  .project-title {
-    text-align: center; /* Center the title text */
-    margin: 0; /* Remove default margin */
-  }
-  .project-date {
-    text-align: center; /* Center the date text */
-    margin: 0; /* Remove default margin */
-    background-color: #f9f9f9; /* Optional: Background color for date */
-    padding: 10px; /* Add padding for better spacing */
-  }
-</style>
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+
+    <h2 class="archive__item-title" itemprop="headline">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h2>
+    
+    {% if post.read_time %}
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+    {% endif %}
+
+        {% if post.collection == 'teaching' %}
+          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif post.collection == 'publications' %}
+          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif post.date %}
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+        {% endif %}
+
+    {% if post.excerpt and site.read_more != 'enabled' %}
+    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    {% elsif post.excerpt and site.read_more == 'enabled' %}
+    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    {% endif %}
+    
+    {% if post.citation and post.paperurl and post.slidesurl %}
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
+    {% elsif post.citation and post.paperurl %}
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
+    {% elsif post.citation and post.slidesurl %}
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
+    {% elsif post.citation %}
+      <p>Recommended citation: {{ post.citation }}</p>
+    {% elsif post.paperurl %}
+      <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
+    {% elsif post.slidesurl %}
+      <p>Download <a href="{{ post.slidesurl }}">Download Slides</a></p></p>
+    {% endif %}
+
+  </article>
+</div>
