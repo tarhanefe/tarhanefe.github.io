@@ -7,7 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-
 <div class="project-list">
   {% for project in site.projects reversed %}
     <a href="{{ project.url | relative_url }}" class="project-link">
@@ -17,7 +16,7 @@ author_profile: true
         {% endif %}
         <div class="project-content">
           <h3>{{ project.title }}</h3>
-          <p>{{ project.excerpt }}</p>
+          <p>{{ project.excerpt | truncate: 150 }}</p>
         </div>
       </div>
     </a>
@@ -46,6 +45,8 @@ author_profile: true
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    height: 400px; /* Set a fixed height for consistency */
+    box-sizing: border-box;
   }
   .project-image {
     width: 100%;
@@ -62,5 +63,10 @@ author_profile: true
   .project-item p {
     font-size: 0.9rem;
     color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* Number of lines before truncation */
+    -webkit-box-orient: vertical;
   }
 </style>
