@@ -28,10 +28,13 @@ author_profile: true
   }
   .project-box {
     width: 300px; /* Adjust width of project boxes */
+    max-height: 400px; /* Adjust maximum height of project boxes */
     border: 1px solid #ccc; /* Optional: Add border to project boxes */
     border-radius: 5px; /* Optional: Add border radius to project boxes */
     overflow: hidden; /* Ensure content doesn't overflow the box */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow to project boxes */
+    display: flex;
+    flex-direction: column;
   }
   .project-image img {
     width: 100%; /* Make sure the image covers the full width of the box */
@@ -39,5 +42,6 @@ author_profile: true
   }
   .project-content {
     padding: 15px; /* Add padding inside the project box */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds max height */
   }
 </style>
