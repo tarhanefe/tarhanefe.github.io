@@ -7,8 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-
-
 <div class="project-list">
   {% for project in site.projects reversed %}
     <a href="{{ project.url | relative_url }}" class="project-link">
@@ -19,6 +17,9 @@ author_profile: true
         <div class="project-content">
           <h3>{{ project.title }}</h3>
           <p>{{ project.excerpt }}</p>
+        </div>
+        <div class="project-footer">
+          <p>{{ project.date }}</p>
         </div>
       </div>
     </a>
@@ -47,7 +48,7 @@ author_profile: true
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    height: 400px; /* Set a fixed height for consistency */
+    height: 420px; /* Set a fixed height for consistency */
     box-sizing: border-box;
     transition: transform 0.3s ease;
   }
@@ -60,6 +61,11 @@ author_profile: true
     padding: 15px;
     flex-grow: 1;
   }
+  .project-footer {
+    padding: 10px 15px;
+    background-color: #f1f1f1;
+    text-align: right;
+  }
   .project-item h3, .project-item p {
     text-decoration: none; /* Remove underline from h3 and p elements */
   }
@@ -67,7 +73,6 @@ author_profile: true
     margin-top: 0;
     font-size: 1rem;
     color: #333;
-    text-decoration: none; /* Ensure no underline for h3 */
   }
   .project-item p {
     font-size: 0.9rem;
@@ -77,5 +82,10 @@ author_profile: true
     display: -webkit-box;
     -webkit-line-clamp: 5; /* Limit to 5 lines */
     -webkit-box-orient: vertical;
+  }
+  .project-footer p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #888;
   }
 </style>
