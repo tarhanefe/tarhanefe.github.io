@@ -20,7 +20,7 @@ author_profile: true
         <div class="content-wrapper">
           {{ content }}
         </div>
-        <div class="read-more">
+        <div class="read-more" style="display: none;">
           <em>Read more...</em>
         </div>
       </div>
@@ -55,7 +55,7 @@ author_profile: true
     position: relative;
   }
   .content-wrapper {
-    max-height: calc(100% - 20px); /* Ensure there's space for "Read more..." */
+    max-height: calc(100% - 30px); /* Ensure there's space for "Read more..." */
     overflow: hidden;
   }
   .read-more {
@@ -72,3 +72,18 @@ author_profile: true
     transform: scale(1.05); /* Zoom effect on box when hyperlink is hovered */
   }
 </style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const projectBoxes = document.querySelectorAll('.project-box');
+
+    projectBoxes.forEach(box => {
+      const contentWrapper = box.querySelector('.content-wrapper');
+      const readMore = box.querySelector('.read-more');
+
+      if (contentWrapper.scrollHeight > contentWrapper.clientHeight) {
+        readMore.style.display = 'block';
+      }
+    });
+  });
+</script>
