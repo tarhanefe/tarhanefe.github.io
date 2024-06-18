@@ -5,7 +5,7 @@ permalink: /projects/monkeypox_detection
 image: "https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/a15381a6-a223-4a12-9bdd-06c943e06936"
 ---
 
-This project focuses on detecting and distinguishing monkeypox cases from similar diseases such as smallpox, chickenpox, and measles. Conducted under the guidance of ICONLAB, the project aims to raise awareness within the global medical imaging community. To achieve accurate classification, we utilized various deep learning backbone models, including VGG16, Inception Net, and ResNet. 
+This project, under ICONLAB, aims to detect and distinguish monkeypox from smallpox, chickenpox, and measles. It focuses on raising awareness in the global medical imaging community. For accurate classification, we utilized deep learning backbone models such as VGG16, Inception Net, and ResNet.
 
 <p align="center">
 <img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/86ce444e-a327-41c6-8cca-79fc46da3442" alt="Project Image" width = "200" /></p>
