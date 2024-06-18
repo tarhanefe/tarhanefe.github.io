@@ -10,7 +10,7 @@ author_profile: true
 <style>
 .project-box {
     border: 2px solid #ccc;
-    margin: 10px 0;
+    margin: 20px 0;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
