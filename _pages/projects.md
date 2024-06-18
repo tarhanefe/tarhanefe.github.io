@@ -14,7 +14,15 @@ author_profile: true
         <img src="{{ post.image }}" alt="{{ post.title }}">
       </div>
       <div class="project-content">
-        {% include archive-single.html %}
+        {% capture content %}
+          {% include archive-single.html %}
+        {% endcapture %}
+        <div class="content-wrapper">
+          {{ content }}
+        </div>
+        <div class="read-more">
+          <em>Read more...</em>
+        </div>
       </div>
     </div>
   {% endfor %}
@@ -28,7 +36,7 @@ author_profile: true
   }
   .project-box {
     width: 300px; /* Adjust width of project boxes */
-    max-height: 700px; /* Adjust maximum height of project boxes */
+    max-height: 700px; /* Set maximum height of project boxes */
     border: 1px solid #ccc; /* Optional: Add border to project boxes */
     border-radius: 5px; /* Optional: Add border radius to project boxes */
     overflow: hidden; /* Ensure content doesn't overflow the box */
@@ -42,6 +50,18 @@ author_profile: true
   }
   .project-content {
     padding: 15px; /* Add padding inside the project box */
-    /*overflow-y: auto; /* Enable vertical scrolling if content exceeds max height */
+    flex-grow: 1;
+    position: relative;
+  }
+  .content-wrapper {
+    max-height: calc(100% - 20px); /* Ensure there's space for "Read more..." */
+    overflow: hidden;
+  }
+  .read-more {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background: white; /* Ensure the text is readable */
+    padding: 5px;
   }
 </style>
