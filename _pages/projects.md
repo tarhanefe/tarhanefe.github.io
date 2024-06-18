@@ -28,7 +28,7 @@ author_profile: true
   }
   .project-box {
     width: 300px; /* Adjust width of project boxes */
-    max-height: 400px; /* Adjust maximum height of project boxes */
+    max-height: 700px; /* Adjust maximum height of project boxes */
     border: 1px solid #ccc; /* Optional: Add border to project boxes */
     border-radius: 5px; /* Optional: Add border radius to project boxes */
     overflow: hidden; /* Ensure content doesn't overflow the box */
@@ -42,6 +42,6 @@ author_profile: true
   }
   .project-content {
     padding: 15px; /* Add padding inside the project box */
-    overflow-y: auto; /* Enable vertical scrolling if content exceeds max height */
+    /*overflow-y: auto; /* Enable vertical scrolling if content exceeds max height */
   }
 </style>
