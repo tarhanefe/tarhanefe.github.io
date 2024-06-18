@@ -7,57 +7,66 @@ author_profile: true
 
 {% include base_path %}
 
-<div class="projects-container">
+<h1>{{ page.title }}</h1>
+<p>Explore a variety of projects showcasing different skills and interests.</p>
+
+<div class="project-list">
   {% for project in site.projects reversed %}
-    <div class="project-box">
-      <a href="{{ project.url | relative_url }}">
-        <img src="{{ project.image }}" alt="{{ project.title }}" class="project-image"/>
+    <a href="{{ project.url | relative_url }}" class="project-link">
+      <div class="project-item">
+        {% if project.image %}
+          <img src="{{ project.image }}" alt="{{ project.title }} image" class="project-image">
+        {% endif %}
         <div class="project-content">
           <h3>{{ project.title }}</h3>
-          <p>{{ project.excerpt | truncatewords: 30 }}</p>
+          <p>{{ project.excerpt }}</p>
         </div>
-      </a>
-    </div>
+      </div>
+    </a>
   {% endfor %}
 </div>
 
 <style>
-  .projects-container {
+  .project-list {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
   }
-  .project-box {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
+  .project-link {
     width: calc(33.333% - 20px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease;
   }
-  .project-box:hover {
+  .project-link:hover {
     transform: scale(1.05);
   }
-  .project-box a {
-    color: inherit;
-    text-decoration: none;
+  .project-item {
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
   }
   .project-image {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    height: auto;
   }
   .project-content {
     padding: 15px;
   }
-  @media (max-width: 768px) {
-    .project-box {
-      width: calc(50% - 20px);
-    }
+  .project-item h3,
+  .project-item p {
+    text-decoration: none; /* Remove underline from h3 and p elements */
   }
-  @media (max-width: 480px) {
-    .project-box {
-      width: 100%;
-    }
+  .project-item h3 {
+    margin-top: 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  .project-item p {
+    font-size: 0.9rem;
+    color: #666;
   }
 </style>
