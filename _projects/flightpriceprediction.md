@@ -3,6 +3,7 @@ title: 'Flight Price Prediction using ML Techniques Written From Scratch'
 date: 2022-04-01
 permalink: /projects/flightpriceprediction
 image: "https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/6b0556ed-1990-432f-9d01-38e8f3dd94f0"
+teaser: "https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/6b0556ed-1990-432f-9d01-38e8f3dd94f0"
 ---
 This project explores the relationship between airline ticket prices and various factors such as airline, destination, flight times, booking period, and flight class. We developed custom-built machine learning models using fundamental Python libraries (numpy, pandas) to predict ticket prices based on these features.
 
