@@ -3,8 +3,6 @@ title: 'Monkeypox Disease Detection using Classical Backbone Models'
 date: 2022-08-16
 permalink: /projects/monkeypox_detection
 image: "https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/a15381a6-a223-4a12-9bdd-06c943e06936"
-header:
-  teaser: "https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/a15381a6-a223-4a12-9bdd-06c943e06936"
 ---
 
 This project focuses on detecting and distinguishing monkeypox cases from similar diseases such as smallpox, chickenpox, and measles. Conducted under the guidance of ICONLAB, the project aims to raise awareness within the global medical imaging community. To achieve accurate classification, we utilized various deep learning backbone models, including VGG16, Inception Net, and ResNet. 
