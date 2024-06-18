@@ -21,8 +21,8 @@ author_profile: true
 }
 
 .project-image {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 200px;
     display: block;
 }
 
