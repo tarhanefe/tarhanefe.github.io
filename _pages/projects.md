@@ -7,6 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
+<h1>{{ page.title }}</h1>
+<p>Explore a variety of projects showcasing different skills and interests.</p>
+
 <div class="project-list">
   {% for project in site.projects reversed %}
     <a href="{{ project.url | relative_url }}" class="project-link">
@@ -16,7 +19,7 @@ author_profile: true
         {% endif %}
         <div class="project-content">
           <h3>{{ project.title }}</h3>
-          <p>{{ project.excerpt | truncate: 150 }}</p>
+          <p>{{ project.excerpt | truncate: 100 }}</p> <!-- Adjust length as needed -->
         </div>
       </div>
     </a>
@@ -35,7 +38,7 @@ author_profile: true
     color: inherit;
     transition: transform 0.3s ease;
   }
-  .project-link:hover {
+  .project-link:hover .project-item {
     transform: scale(1.05);
   }
   .project-item {
@@ -45,15 +48,18 @@ author_profile: true
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    height: 400px; /* Set a fixed height for consistency */
+    height: 350px; /* Set a fixed height for consistency */
     box-sizing: border-box;
+    transition: transform 0.3s ease;
   }
   .project-image {
     width: 100%;
-    height: auto;
+    height: 150px; /* Fixed height for images */
+    object-fit: cover;
   }
   .project-content {
     padding: 15px;
+    flex-grow: 1;
   }
   .project-item h3 {
     margin-top: 0;
