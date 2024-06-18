@@ -5,8 +5,7 @@ permalink: /projects/cxr_detection
 image: "https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/e7b0ee8e-a33d-463a-be0e-b4b79c713190"
 ---
 
-This TUBITAK project aims to develop a system for detecting diseases from X-ray images using neural networks. The process involves preparing a dataset of X-ray images, where each image is labeled with various medical conditions. The images are preprocessed using OpenCV to resize them to 224x224 pixels, and the labels are binarized for multi-label classification. The project employs data augmentation techniques such as rotation, zoom, and shifts to enhance the training dataset. 
-
+This TUBITAK project aims to develop a system for detecting diseases from X-ray images using neural networks. It involves preparing and labeling a dataset, preprocessing images to 224x224 pixels, and binarizing labels for classification. Data augmentation techniques like rotation, zoom, and shifts enhance the training dataset.
 
 <p align="center">
 <img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/e7b0ee8e-a33d-463a-be0e-b4b79c713190" alt="Project Image" width = "400" /></p>
