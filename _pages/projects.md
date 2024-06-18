@@ -14,6 +14,8 @@ author_profile: true
     padding: 10px;
     margin: 10px 0;
     overflow: hidden;
+    background-size: cover;
+    background-position: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -22,21 +24,27 @@ author_profile: true
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.project-box img {
+.project-content {
+    position: relative;
+    z-index: 1;
+}
+
+.project-box::before {
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    opacity: 0.5;
-    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the transparency as needed */
+    z-index: 0;
 }
 </style>
 
 {% for post in site.projects reversed %}
-  <div class="project-box">
-    <img src="{{ post.image }}" alt="Cover image for {{ post.title }}">
-    {% include archive-single.html %}
+  <div class="project-box" style="background-image: url('{{ post.image }}');">
+    <div class="project-content">
+      {% include archive-single.html %}
+    </div>
   </div>
 {% endfor %}
