@@ -11,10 +11,10 @@
 }
 </style>
 
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% if post.image %}
+  {% capture image %}{{ post.image }}{% endcapture %}
 {% else %}
-  {% assign teaser = site.teaser %}
+  {% assign image = site.image %}
 {% endif %}
 
 {% if post.id %}
@@ -25,13 +25,13 @@
 
 <div class="project-entry {{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
+    {% if include.type == "grid" and image %}
+      <div class="archive__item-image">
         <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
+          {% if image contains "://" %}
+            "{{ image }}"
           {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+            "{{ image | prepend: "/images/" | prepend: base_path }}"
           {% endif %}
           alt="">
       </div>
