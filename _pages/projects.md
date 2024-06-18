@@ -7,19 +7,22 @@ author_profile: true
 
 {% include base_path %}
 
+<h1>{{ page.title }}</h1>
+<p>Explore a variety of projects showcasing different skills and interests.</p>
+
 <div class="project-list">
-  {% for project in site.projects reversed %}
-    <a href="{{ project.url | relative_url }}" class="project-link">
+  {% for post in site.projects reversed %}
+    <a href="{{ post.url | relative_url }}" class="project-link">
       <div class="project-item">
-        {% if project.image %}
-          <img src="{{ project.image }}" alt="{{ project.title }} image" class="project-image">
+        {% if post.header.teaser %}
+          <img src="{{ post.header.teaser | prepend: site.baseurl }}" alt="{{ post.title }} image" class="project-image">
         {% endif %}
         <div class="project-content">
-          <h3>{{ project.title }}</h3>
-          <p>{{ project.excerpt }}</p>
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.excerpt }}</p>
         </div>
         <div class="project-footer">
-          <p>{{ project.date }}</p>
+          <p><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         </div>
       </div>
     </a>
@@ -48,7 +51,7 @@ author_profile: true
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    height: 420px; /* Set a fixed height for consistency */
+    height: 420px; /* Adjusted height to accommodate footer */
     box-sizing: border-box;
     transition: transform 0.3s ease;
   }
