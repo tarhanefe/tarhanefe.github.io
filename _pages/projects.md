@@ -65,6 +65,7 @@ author_profile: true
     margin-top: 0;
     font-size: 1rem;
     color: #333;
+    text-decoration: underline; /* Keep underlines on project titles */
   }
   .project-item p {
     font-size: 0.9rem;
