@@ -24,7 +24,6 @@ author_profile: true
     width: auto;
     height: 200px;
     display: block;
-    margin: 10px auto; /* Centers the image horizontally and adds some vertical spacing */
 }
 
 .project-content {
