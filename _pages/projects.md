@@ -33,9 +33,9 @@ author_profile: true
 
 {% for post in site.projects reversed %}
   <div class="project-box">
-    <img class="project-image" src="{{ post.image }}" alt="Cover image for {{ post.title }}">
     <div class="project-content">
       {% include archive-single.html %}
     </div>
+    <img class="project-image" src="{{ post.image }}" alt="Cover image for {{ post.title }}">
   </div>
 {% endfor %}
