@@ -10,7 +10,7 @@ author_profile: true
 <style>
 .project-box {
     border: 2px solid #ccc;
-    margin: 20px 0;
+    margin: 30px 0;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -21,9 +21,10 @@ author_profile: true
 }
 
 .project-image {
-    width: 100%;
+    width: 100px;
     height: auto;
     display: block;
+    margin: 10px auto; /* Centers the image horizontally and adds some vertical spacing */
 }
 
 .project-content {
