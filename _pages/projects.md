@@ -7,8 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-<h1>{{ page.title }}</h1>
-<p>Explore a variety of projects showcasing different skills and interests.</p>
+
 
 <div class="project-list">
   {% for project in site.projects reversed %}
@@ -48,16 +47,21 @@ author_profile: true
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    height: 400px; /* Set a fixed height for consistency */
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
   }
   .project-image {
     width: 100%;
-    height: auto;
+    height: 150px; /* Fixed height for images */
+    object-fit: cover;
   }
   .project-content {
     padding: 15px;
+    flex-grow: 1;
   }
   .project-item h3, .project-item p {
-    text-decoration: none; /* Explicitly remove underline */
+    text-decoration: none; /* Remove underline from h3 and p elements */
   }
   .project-item h3 {
     margin-top: 0;
@@ -68,6 +72,10 @@ author_profile: true
   .project-item p {
     font-size: 0.9rem;
     color: #666;
-    text-decoration: none; /* Ensure no underline for p */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* Limit to 5 lines */
+    -webkit-box-orient: vertical;
   }
 </style>
