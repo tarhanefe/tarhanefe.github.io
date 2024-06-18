@@ -56,17 +56,18 @@ author_profile: true
   .project-content {
     padding: 15px;
   }
-  .project-item h3,
-  .project-item p {
-    text-decoration: none; /* Remove underline from h3 and p elements */
+  .project-item h3, .project-item p {
+    text-decoration: none; /* Explicitly remove underline */
   }
   .project-item h3 {
     margin-top: 0;
     font-size: 1rem;
     color: #333;
+    text-decoration: none; /* Ensure no underline for h3 */
   }
   .project-item p {
     font-size: 0.9rem;
     color: #666;
+    text-decoration: none; /* Ensure no underline for p */
   }
 </style>
