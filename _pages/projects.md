@@ -43,6 +43,7 @@ author_profile: true
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow to project boxes */
     display: flex;
     flex-direction: column;
+    transition: transform 0.3s ease; /* Add transition for zoom effect */
   }
   .project-image img {
     width: 100%; /* Make sure the image covers the full width of the box */
@@ -63,5 +64,11 @@ author_profile: true
     left: 15px;
     background: white; /* Ensure the text is readable */
     padding: 5px;
+  }
+  .project-title a:hover {
+    color: #3498db; /* Optional: Change color on hover */
+  }
+  .project-title a:hover ~ .project-box {
+    transform: scale(1.05); /* Zoom effect on box when hyperlink is hovered */
   }
 </style>
