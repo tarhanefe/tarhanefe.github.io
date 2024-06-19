@@ -1,6 +1,6 @@
 ---
 title: 'Wireless Train Signalization Project'
-date: 2023-05-12
+date: 2024-06-05
 permalink: /projects/identifusion
 image: "https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/7aff2b4b-f16d-4754-b430-cb957ca58507"
 ---
