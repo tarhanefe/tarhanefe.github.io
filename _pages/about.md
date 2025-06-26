@@ -17,7 +17,7 @@ Short Bio
 > 
 > <p align="center">
 >   <a href="https://w3.bilkent.edu.tr/www/">
->     <img src="https://github.com/tarhanefe/bilkent-cs115-labs/assets/73281981/353e59fa-4cf5-4be5-b62f-afa383f3fdcd" alt="Bilkent Image" width="250" />
+>     <img src="/images/bilkent_logo.png" alt="Bilkent Image" width="250" />
 >   </a>
 > </p>
 > 
@@ -36,7 +36,7 @@ Short Bio
 > 
 > <p align="center">
 >   <a href="https://www.epfl.ch/en/">
->     <img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/340fa420-8203-403c-9e16-dcdefc8cdf81" alt="EPFL Image" width="250" />
+>     <img src="/images/epfl_logo.png" alt="EPFL Image" width="300" />
 >   </a>
 > </p>
 > 
