@@ -21,7 +21,7 @@ Short Bio
 >   </a>
 > </p>
 > 
-> I graduated from the Electrical and Electronics Engineering Department at Bilkent University with a **GPA of 3.95/4.0**, ranking **2<sup>nd</sup>** among 220 students in the cohort of 2024. Throughout my undergraduate education, I developed skills in Machine Learning, Deep Learning, and Signal Processing methods for images and signals.
+> I graduated from the Electrical and Electronics Engineering Department at Bilkent University with a **GPA of 3.95/4.0**, ranking **2<sup>nd</sup>** among 180 students in the cohort of 2024. Throughout my undergraduate education, I developed skills in Machine Learning, Deep Learning, and Signal Processing methods for images and signals.
 > 
 > **Research and Experience**
 > - Joined ICONLAB for a year and researched topics related to deep learning applications in medical imaging, focusing on x-ray images and MRI.
@@ -31,7 +31,7 @@ Short Bio
 > - Social Awareness Projects: Joined educative activities with children from underdeveloped schools in Ankara for 1 year.
 > - Animal Welfare Club: Actively helped and fed animals on the Bilkent University campus.
 
-> __2024 - 2026__ | École Polytechnique Fédérale de Lausanne 🇨🇭
+> __2024 - Present__ | École Polytechnique Fédérale de Lausanne 🇨🇭
 > -----
 > 
 > <p align="center">
