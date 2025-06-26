@@ -6,10 +6,8 @@ redirect_from:
   - /about.html
 ---
 
-I am Efe, and I have a keen interest in Machine Learning, Signal Processing, and various related fields. This website showcases my academic and professional achievements, along with my projects, publications, and other content.
+Hey, I am Efe. I use this website as a protfolio and blog for my projects, awards, publications and more...
 
-Short Bio
-======
 
 > __2024 - Present__ | École Polytechnique Fédérale de Lausanne 🇨🇭
 > -----
@@ -38,7 +36,7 @@ Short Bio
 > **Research and Experience**
 > - Joined [**ICONLAB**](https://www.icon.bilkent.edu.tr) for a year and researched topics related to deep learning applications in medical imaging, focusing on x-ray images and MRI.
 > - Conducted research on visible light positioning (VLP) under the presence of intelligent reflective surfaces (IRS) under the supervision of [**Prof. Dr. Sinan Gezici**](https://www.ee.bilkent.edu.tr/~gezici/).
-> - Published the journal paper [**IRS Aided Visible Light Positioning with a Single LED Transmitter**](https://doi.org/10.1016/j.dsp.2024.104799) on *Elsevier Digital Signal Processing*
+> - Published the journal paper [**IRS Aided Visible Light Positioning with a Single LED Transmitter**](https://doi.org/10.1016/j.dsp.2024.104799) on *Elsevier Digital Signal Processing* 🎉
 > 
 > **Clubs and Societies**
 > - Social Awareness Projects: Joined educative activities with children from underdeveloped schools in Ankara.
