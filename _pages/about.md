@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "Welcome to Efe Tarhan's Webpage!"
 author_profile: true
 redirect_from: 
   - /about/
