@@ -122,7 +122,7 @@ author_profile: true
   <li class="timeline-item">
     <div class="timeline-content">
       <h3>YKS (Turkish National University Entrance Exam)</h3>
-      <p>Ranked 441st among 2 million students in 2020 in math and science score.</p>
+      <p>Ranked 441st among 2 million students in 2020 in math-science score.</p>
     </div>
   </li>
   <li class="timeline-item">
