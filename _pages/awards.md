@@ -109,13 +109,20 @@ author_profile: true
   <li class="timeline-item">
     <div class="timeline-content">
       <h3>Bilkent University High Honor Student</h3>
-      <p>Maintained a CGPA higher than 3.5 each semester at Bilkent University.</p>
+      <p>Maintained a GPA higher than 3.5 each semester at Bilkent University.</p>
     </div>
   </li>
   <li class="timeline-item">
     <div class="timeline-content">
       <h3>Bilkent University Comprehensive Scholarship</h3>
       <p>A full comprehensive scholarship covering the annual education and dormitory fees for four years of undergraduate education, along with an additional monthly stipend.</p>
+    </div>
+  </li>
+
+  <li class="timeline-item">
+    <div class="timeline-content">
+      <h3>YKS (Turkish National Univeristy Entrence Exam)</h3>
+      <p>Ranked 441st among 2 million students in 2020 in math and science score.</p>
     </div>
   </li>
   <li class="timeline-item">
