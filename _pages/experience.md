@@ -7,20 +7,19 @@ author_profile: true
 
 {% include base_path %}
 
-## Work Experience
+## Industry Experience
 
-> ### 2021 June - July | Summer Internship in UMRAM
+> ### 2021 April - 2022 June | Part-Time Signal Processing Engineer in NANOTAM
 > <hr style="border: none; height: 2px; background-color: #333; margin: 20px 0;">
 > <p align="center">
->   <a href="https://umram.bilkent.edu.tr/index.php/tr/">
->     <img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/2c877b3c-449a-4e9e-9659-85c75ad05bd8" alt="UMRAM Image" width="300" />
+>   <a href="http://www.nanotam.bilkent.edu.tr">
+>     <img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/d00a4308-5e11-49d7-90b8-ac373b0286a2" alt="NANOTAM Image" width="300" />
 >   </a>
 > </p>
-> During my summer internship at UMRAM, I focused on several key projects. I conducted extensive research on deep learning models for computer vision, designed medical X-ray image classifiers using transfer learning techniques with backbone models like EfficientNet, ResNet, and Inception, and developed a robust classifier model for detecting monkeypox disease from image data.
+> During my work on processing OTDR data, I utilized classical and efficient signal processing techniques with MATLAB, Python, and C++. I researched the use of chirped pulses as the probing signal for phi-OTDR, calculated the noise profile of the ADC and DAC modules in various projects, and programmed an Nvidia Jetson board for specific computer vision applications. Additionally, I designed a real-time signal processing pipeline in MATLAB for phi-OTDR event detection.
 > <p align="center">
->   <img width="200" alt="Ekran Resmi 2024-06-16 13 06 53" src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/28e7e38d-42f9-436a-983f-21615b913c1e">
+>   <img width="150" alt="Resim1" src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/e1c5b5c8-f3f8-400f-a75f-fd8717455309">
 > </p>
-
 > ### 2022 July - August | Summer Internship in ASELSAN
 > <hr style="border: none; height: 2px; background-color: #333; margin: 20px 0;">
 > <p align="center">
@@ -36,18 +35,54 @@ author_profile: true
 > <p align="center">
 >   <img width="300" alt="Ekran Resmi 2024-06-16 13 07 30" src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/f77e4dc9-d754-49c7-913f-6bf2542b33bf">
 > </p>
-
-> ### 2021 April - 2022 June | Part-Time Signal Processing Engineer in NANOTAM
+> ### 2021 June - July | Summer Internship in UMRAM
 > <hr style="border: none; height: 2px; background-color: #333; margin: 20px 0;">
 > <p align="center">
->   <a href="http://www.nanotam.bilkent.edu.tr">
->     <img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/d00a4308-5e11-49d7-90b8-ac373b0286a2" alt="NANOTAM Image" width="300" />
+>   <a href="https://umram.bilkent.edu.tr/index.php/tr/">
+>     <img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/2c877b3c-449a-4e9e-9659-85c75ad05bd8" alt="UMRAM Image" width="300" />
 >   </a>
 > </p>
-> During my work on processing OTDR data, I utilized classical and efficient signal processing techniques with MATLAB, Python, and C++. I researched the use of chirped pulses as the probing signal for phi-OTDR, calculated the noise profile of the ADC and DAC modules in various projects, and programmed an Nvidia Jetson board for specific computer vision applications. Additionally, I designed a real-time signal processing pipeline in MATLAB for phi-OTDR event detection.
+> During my summer internship at UMRAM, I focused on several key projects. I conducted extensive research on deep learning models for computer vision, designed medical X-ray image classifiers using transfer learning techniques with backbone models like EfficientNet, ResNet, and Inception, and developed a robust classifier model for detecting monkeypox disease from image data.
+> <p align="center">
+>   <img width="200" alt="Ekran Resmi 2024-06-16 13 06 53" src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/28e7e38d-42f9-436a-983f-21615b913c1e">
+> </p>
+
+## Research Experience
+
+> ### 2024 Sep - Present | Undergraduate Researcher in Biomedical Imaging Group
+> <hr style="border: none; height: 2px; background-color: #333; margin: 20px 0;">
+> <p align="center">
+>   <a href="https://bigwww.epfl.ch">
+>     <img src="/images/epfl_logo.png" alt="EPFL Image" width="300" />
+>   </a>
+> </p>
+> I have conducted research in BIG Lab
 > <p align="center">
 >   <img width="150" alt="Resim1" src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/e1c5b5c8-f3f8-400f-a75f-fd8717455309">
 > </p>
+> ### 2023 Mar - 2024 Aug | Undergraduate Researcher under Prof. Sinan Gezici
+> <hr style="border: none; height: 2px; background-color: #333; margin: 20px 0;">
+> <p align="center">
+>   <a href="https://w3.bilkent.edu.tr/www/">
+>     <img src="/images/bilkent_logo.png" alt="Bilkent Image" width="300" />
+>   </a>
+> </p>
+> I have conducted research under supervision of Prof. Sinan Gezici
+> <p align="center">
+>   <img width="300" alt="Ekran Resmi 2024-06-16 13 06 53" src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/8e58cee0-b4e1-4df0-b580-2dd82957c676">
+> </p>
+> ### 2021 Mar - Aug | Undergraduate Researcher in UMRAM
+> <hr style="border: none; height: 2px; background-color: #333; margin: 20px 0;">
+> <p align="center">
+>   <a href="https://umram.bilkent.edu.tr/index.php/tr/">
+>     <img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/2c877b3c-449a-4e9e-9659-85c75ad05bd8" alt="UMRAM Image" width="300" />
+>   </a>
+> </p>
+> I have conducted research in ICON Lab. 
+> <p align="center">
+>   <img width="200" alt="Ekran Resmi 2024-06-16 13 06 53" src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/28e7e38d-42f9-436a-983f-21615b913c1e">
+> </p>
+
 
 ## Coding Skills
 
