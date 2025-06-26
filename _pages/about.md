@@ -12,6 +12,18 @@ I am Efe, and I have a keen interest in Machine Learning, Signal Processing, and
 Short Bio
 ======
 
+> __2024 - Present__ | École Polytechnique Fédérale de Lausanne 🇨🇭
+> -----
+> 
+> <p align="center">
+>   <a href="https://www.epfl.ch/en/">
+>     <img src="/images/epfl_logo.png" alt="EPFL Image" width="300" />
+>   </a>
+> </p>
+> 
+> I have been admitted to EPFL for the program MSc in Communication Systems under the IC department as an **Excellence Scholar**. I will pursue my academic career in fields related to Machine Learning and Signal Processing.
+
+
 > __2020 - 2024__ | Bilkent University Electrical and Electronics Engineering 🇹🇷 
 > -----
 > 
@@ -31,13 +43,3 @@ Short Bio
 > - Social Awareness Projects: Joined educative activities with children from underdeveloped schools in Ankara for 1 year.
 > - Animal Welfare Club: Actively helped and fed animals on the Bilkent University campus.
 
-> __2024 - Present__ | École Polytechnique Fédérale de Lausanne 🇨🇭
-> -----
-> 
-> <p align="center">
->   <a href="https://www.epfl.ch/en/">
->     <img src="/images/epfl_logo.png" alt="EPFL Image" width="300" />
->   </a>
-> </p>
-> 
-> I have been admitted to EPFL for the program MSc in Communication Systems under the IC department as an **Excellence Scholar**. I will pursue my academic career in fields related to Machine Learning and Signal Processing.
