@@ -22,7 +22,7 @@ Short Bio
 > 
 > I have been admitted to EPFL for the program MSc in Communication Systems under the IC department as an **Excellence Scholar**. I have a research and academic focus on Machine Learning and Signal Processing related topics with a spesific focus on images in 2D and 3D. 
 > - Completed **Signals, Images and Systems Specialization**. Currently have a **5.9/6.0 GPA**
-> - Conducting research under the BIG (Biomedical Imaging Group) directed by Michael Unser. Working on multiresolution optimization of ptychography images. 
+> - Conducting research under the **BIG (Biomedical Imaging Group)** directed by Michael Unser. Working on multiresolution optimization schemes for reconstruction in ptychography imaging. 
 
 > __2020 - 2024__ | Bilkent University Electrical and Electronics Engineering 🇹🇷 
 > -----
