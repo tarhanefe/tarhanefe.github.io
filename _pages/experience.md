@@ -67,10 +67,7 @@ author_profile: true
 >     <img src="/images/bilkent_logo.png" alt="Bilkent Image" width="300" />
 >   </a>
 > </p>
-> I have conducted research under supervision of Prof. Sinan Gezici
-> <p align="center">
->   <img width="300" alt="Ekran Resmi 2024-06-16 13 06 53" src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/8e58cee0-b4e1-4df0-b580-2dd82957c676">
-> </p>
+> I have conducted research on visible light positioning and the potential use of intelligent reflective surfaces under the supervision of **Prof. Sinan Gezici**. As part of my studies, I completed a semester project titled **ML-Enhanced VLP in IRS-Assisted Indoor Environments with a Single LED Transmitter**. Building upon this work, I authored and published a journal paper, [**IRS Aided Visible Light Positioning with a Single LED Transmitter**](https://doi.org/10.1016/j.dsp.2024.104799), in *Elsevier Digital Signal Processing*. The study focuses on enhancing localization performance, measured by the Cramér-Rao Lower Bound (CRLB), by leveraging intelligent reflective arrays with a single LED transmitter.
 > ### 2021 Mar - Aug | Undergraduate Researcher in UMRAM
 > <hr style="border: none; height: 2px; background-color: #333; margin: 20px 0;">
 > <p align="center">
@@ -78,11 +75,7 @@ author_profile: true
 >     <img src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/2c877b3c-449a-4e9e-9659-85c75ad05bd8" alt="UMRAM Image" width="300" />
 >   </a>
 > </p>
-> I have conducted research in ICON Lab. 
-> <p align="center">
->   <img width="200" alt="Ekran Resmi 2024-06-16 13 06 53" src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/28e7e38d-42f9-436a-983f-21615b913c1e">
-> </p>
-
+> I have worked on Deep Learning on a special focus of biomedical images in the ICON Lab under the Supervision of **Prof. Tolga Çukur**. I have developed classification models for chest tomography image detection tasks and conducted theoretical research on Capsule Networks. The project "Disease Detection from X-Ray Images with Visual Transformer Neural Networks (118C543)", I've worked on, was supported by the **2247 - C STAR-Intern Researcher** Programme. 
 
 ## Coding Skills
 
