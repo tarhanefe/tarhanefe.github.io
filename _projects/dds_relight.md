@@ -4,24 +4,19 @@ date: 2025-06-20
 permalink: /projects/ddsrelight
 image: "/images/ddsrelight/new_pipeline.png"
 ---
-<p align="center"><strong>COM507 – Optional Research Project in Communication Systems</strong></p>
-<p align="center">Efe Tarhan, MSc Student in Communication Systems</p>
-<p align="center"><strong>Supervisor:</strong> Dongqing Wang, Image and Visual Representation Lab (IVRL)</p>
 
----
+This project is a NeRF editing framework that enables localized relighting and texture edits using pretrained diffusion models. Built on the DDS pipeline, it integrates wavelet-based gradient filtering to preserve reflections and fine appearance details during editing. The framework keeps scene geometry fixed after NeRF training, ensuring structural consistency, and enhances edits with surface normal prediction for improved view-dependent rendering. The result is high-fidelity, semantically guided 3D scene edits with strong reflection and color consistency. The GitHub repository can be found in the following [link](https://github.com/tarhanefe/DDSNeRFRelight).
+
 
 <p align="center">
   <img src="/images/ddsrelight/new_pipeline.png" alt="EPFL Logo" width="%100"/>
 </p>
 
-
-
 ---
 
-## 📝 Project Description
-
-This repository implements a NeRF editing framework that enables localized relighting and texture edits using pretrained diffusion models. Built on the DDS pipeline, it integrates wavelet-based gradient filtering to preserve reflections and fine appearance details during editing. The framework keeps scene geometry fixed after NeRF training, ensuring structural consistency, and enhances edits with surface normal prediction for improved view-dependent rendering. The result is high-fidelity, semantically guided 3D scene edits with strong reflection and color consistency. The GitHub repository can be found in the following [link](https://github.com/tarhanefe/DDSNeRFRelight).
-
+<p align="center"><strong>COM507 – Optional Research Project in Communication Systems</strong></p>
+<p align="center">Efe Tarhan, MSc Student in Communication Systems</p>
+<p align="center"><strong>Supervisor:</strong> Dongqing Wang, Image and Visual Representation Lab (IVRL)</p>
 
 ---
 ## 📁 Folder Structure

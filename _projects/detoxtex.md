@@ -5,7 +5,6 @@ permalink: /projects/detoxtext
 image: "/images/detoxtext/detox.png"
 ---
 
-### Project Overview
  The project focuses on **fostering safer online spaces** by developing deep learning models that detect hate speech in various formats, including text, images, memes, videos, and audio content. The project repository can be found in the given [link](https://github.com/tarhanefe/Deep_Learning).
 
 <p align="center">
