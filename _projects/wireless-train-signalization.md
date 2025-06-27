@@ -1,5 +1,5 @@
 ---
-title: 'Wireless Train Signalization Project'
+title: 'Wireless Train Signalization'
 date: 2024-06-05
 permalink: /projects/wireless_train_signalization
 image: "https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/7aff2b4b-f16d-4754-b430-cb957ca58507"
