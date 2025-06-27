@@ -56,10 +56,8 @@ author_profile: true
 >     <img src="/images/epfl_logo.png" alt="EPFL Image" width="300" />
 >   </a>
 > </p>
-> I have conducted research in BIG Lab
-> <p align="center">
->   <img width="150" alt="Resim1" src="https://github.com/tarhanefe/tarhanefe.github.io/assets/73281981/e1c5b5c8-f3f8-400f-a75f-fd8717455309">
-> </p>
+> I have conducted research on developing multiresolution based optimization schemes for the phase retrieval problem in ptychography imaging domain. The work includes the merge of two fields and comparisons with classical methods in ptychography like PIE. The research is expected to be concluded with a journal paper.
+
 > ### 2023 Mar - 2024 Aug | Undergraduate Researcher under Prof. Sinan Gezici
 > <hr style="border: none; height: 2px; background-color: #333; margin: 20px 0;">
 > <p align="center">
@@ -68,6 +66,7 @@ author_profile: true
 >   </a>
 > </p>
 > I have conducted research on visible light positioning and the potential use of intelligent reflective surfaces under the supervision of **Prof. Sinan Gezici**. As part of my studies, I completed a semester project titled **ML-Enhanced VLP in IRS-Assisted Indoor Environments with a Single LED Transmitter**. Building upon this work, I authored and published a journal paper, [**IRS Aided Visible Light Positioning with a Single LED Transmitter**](https://doi.org/10.1016/j.dsp.2024.104799), in *Elsevier Digital Signal Processing*. The study focuses on enhancing localization performance, measured by the Cramér-Rao Lower Bound (CRLB), by leveraging intelligent reflective arrays with a single LED transmitter.
+
 > ### 2021 Mar - Aug | Undergraduate Researcher in UMRAM
 > <hr style="border: none; height: 2px; background-color: #333; margin: 20px 0;">
 > <p align="center">
