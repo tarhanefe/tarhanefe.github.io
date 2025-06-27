@@ -1,6 +1,6 @@
 ---
 title: 'DetoxText: Text Detoxification Using Finetuned Encoder-Decoder Models'
-date: 2025-05-01
+date: 2025-06-01
 permalink: /projects/detoxtext
 image: "/images/detoxtext/detox.png"
 ---

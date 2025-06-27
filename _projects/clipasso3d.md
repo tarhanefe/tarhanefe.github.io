@@ -4,14 +4,12 @@ date: 2025-05-30
 permalink: /projects/clipasso3d
 image: "/images/clipasso/pipeline.png"
 ---
-# From Pixels to Wireframes: 3D Reconstruction via CLIP-Based Sketch Abstraction
+
+The project explores a novel approach to abstracting 3D surfaces into wireframe-like representations by leveraging CLIP-based semantic guidance and Bézier curve parameterizations. The project website can be found at this [link](https://tarhanefe.github.io/CLIPasso3DWebsite/).
 
 <p align="center">
   <img src="/images/clipasso/pipeline.png" width=700px />
 </p>
-
-The project explores a novel approach to abstracting 3D surfaces into wireframe-like representations by leveraging CLIP-based semantic guidance and Bézier curve parameterizations. The project website can be found at this [link](https://tarhanefe.github.io/CLIPasso3DWebsite/).
-
 ---
 
 # Project Structure
