@@ -97,7 +97,7 @@ author_profile: true
   <li class="timeline-item">
     <div class="timeline-content">
       <h3>TÜBİTAK 2209-B Industry Oriented Projects Support Fund</h3>
-      <p>Received funding for the project *Wireless Train Signalization*, which was part of the Industrial Design Project course at Bilkent University.</p>
+      <p>Received funding for the project "Wireless Train Signalization", which was part of the Industrial Design Project course at Bilkent University.</p>
     </div>
   </li>
   <li class="timeline-item">
