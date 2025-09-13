@@ -153,13 +153,14 @@
       </td>
     </tr>
 
-    <tr onmouseout="ever_stop()" onmouseover="ever_start()">
+    <tr onmouseout="clipasso3d_stop()" onmouseover="clipasso3d_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='ever_image'>
-					  <img src='images/ever_after.png' width=100%>
-					</div>
-          <img src='images/ever_before.png' width=100%>
+          <div class="two" id='flash_cache_image'><video  width=100% muted autoplay loop>
+          <source src="images/clipasso3d.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/clipasso3d.png' width=100%>
         </div>
         <script type="text/javascript">
           function ever_start() {
@@ -173,75 +174,64 @@
         </script>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://half-potato.gitlab.io/posts/ever/">
-			<span class="papertitle">EVER: Exact Volumetric Ellipsoid Rendering for Real-time View Synthesis
+        <a href="https://tarhanefe.github.io/CLIPasso3DWebsite/">
+			<span class="papertitle">From Pixels to Wireframes: 3D Reconstruction via CLIP-Based Sketch
+Abstraction
 </span>
         </a>
         <br>
-				<a href="https://half-potato.gitlab.io/">Alexander Mai</a>, 
-				<a href="https://phogzone.com/">Peter Hedman</a>,
-				<a href="https://grgkopanas.github.io/">George Kopanas</a>,
-        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-        <a href="https://scholar.google.com/citations?user=ozNFrecAAAAJ&hl=en">David Futschik</a>,
-        <a href="https://xharlie.github.io/">Qiangeng Xu</a>,
-        <a href="https://jacobsschool.ucsd.edu/faculty/profile?id=253">Falko Kuester</a>,
-				<strong>Jonathan T. Barron</strong>,
-        <a href="https://www.zhangyinda.com/">Yinda Zhang</a>
+				<strong>Efe Tarhan</strong>,
+        <a href="https://www.zhangyinda.com/">Filip Mikovíny</a>,
+        <a href="https://www.zhangyinda.com/">Eylül İpçi</a>,
+        <a href="https://www.zhangyinda.com/">Alberts Reisons</a>
 				<br>
-        <em>ICCV</em>, 2025 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+        <em>Course Project</em>, 2025 &nbsp
         <br>
-        <a href="https://half-potato.gitlab.io/posts/ever/">project page</a>
+        <a href="https://tarhanefe.github.io/CLIPasso3DWebsite/">project page</a>
         /
-        <a href="https://arxiv.org/abs/2410.01804">arXiv</a>
+        <a href="https://www.youtube.com/watch?v=Qa8kh6aMo-8&feature=youtu.be">presentation</a>
         <p></p>
         <p>
-				Raytracing constant-density ellipsoids yields more accurate and flexible radiance fields than splatting Gaussians, and still runs in real-time.
-        </p>
+Optimizing Bézier curves with constrained Gaussian splatting extends sketch abstraction from 2D to 3D. By restricting Gaussians to matte spherical blobs along curve paths, our method produces structured wireframe-like sketches that compactly capture object geometry.        </p>
       </td>
     </tr>
 
-    <tr onmouseout="flash_cache_stop()" onmouseover="flash_cache_start()">
+    <tr onmouseout="relight_stop()" onmouseover="relight_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='flash_cache_image'><video  width=100% muted autoplay loop>
-          <source src="images/flash_cache.mp4" type="video/mp4">
+          <div class="two" id='relight_image'><video  width=100% muted autoplay loop>
+          <source src="images/ddrelight.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
-          <img src='images/flash_cache.jpg' width=100%>
+          <img src='images/ddrelight.jpg' width=100%>
         </div>
         <script type="text/javascript">
-          function flash_cache_start() {
-            document.getElementById('flash_cache_image').style.opacity = "1";
+          function relight_start() {
+            document.getElementById('relight_image').style.opacity = "1";
           }
 
-          function flash_cache_stop() {
-            document.getElementById('flash_cache_image').style.opacity = "0";
+          function relight_stop() {
+            document.getElementById('relight_image').style.opacity = "0";
           }
-          flash_cache_stop()
+          relight_stop()
         </script>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://benattal.github.io/flash-cache/">
-          <span class="papertitle">Flash Cache: Reducing Bias in Radiance Cache Based Inverse Rendering</span>
+        <a href="https://github.com/tarhanefe/dds-relight">
+          <span class="papertitle">Large-Scale 3D Scene Relighting using Pre-Trained Diffusion Models </span>
         </a>
         <br>
-				<a href="https://benattal.github.io/">Benjamin Attal</a>,
-        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-        <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-        <a href="https://phogzone.com/">Peter Hedman</a>, <br>
-				<strong>Jonathan T. Barron</strong>,
-        <a href="https://www.cs.cmu.edu/~motoole2/">Matthew O'Toole</a>,
-        <a href="https://pratulsrinivasan.github.io/">Pratul P. Srinivasan</a>
+				<strong>Efe Tarhan</strong>,
+        <a href="https://dongqing-wang.com">Dongqing Wang</a>,
         <br>
-        <em>ECCV</em>, 2024 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+        <em>Research Project</em>, <a href="https://www.epfl.ch/labs/ivrl/">Image and Visual Representation Lab</a> ,2025 &nbsp
         <br>
-        <a href="https://benattal.github.io/flash-cache/">project page</a>
+        <a href="https://github.com/tarhanefe/dds-relight">project page</a>
         /
-        <a href="TODO">arXiv</a>
+        <a href="data/Efe_Tarhan_IVRL.pdf">report</a>
         <p></p>
         <p>
-          A more physically-accurate inverse rendering system based on radiance caching for recovering geometry, materials, and lighting from RGB images of an object or scene.
-        </p>
+This NeRF editing framework performs localized relighting and texture edits with pretrained diffusion models while preserving geometry. Wavelet-based gradient filtering and surface normal prediction ensure high-fidelity edits with consistent reflections and appearance.        </p>
       </td>
     </tr>
 
