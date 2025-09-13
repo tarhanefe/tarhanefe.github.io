@@ -71,47 +71,42 @@
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
             
-    <tr onmouseout="irsled_stop()" onmouseover="irsled_start()">
+    <tr onmouseout="irs_vlp_stop()" onmouseover="irs_vlp_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='flash_cache_image'><video  width=100% muted autoplay loop>
-          <source src="images/flash_cache.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/flash_cache.jpg' width=100%>
+          <div class="two" id='irsled_image'>
+					  <img src='images/irs_vlp_after.png' width=100%>
+					</div>
+          <img src='images/irs_vlp_before_before.png' width=100%>
         </div>
         <script type="text/javascript">
-          function flash_cache_start() {
-            document.getElementById('flash_cache_image').style.opacity = "1";
+          function irs_vlp_start() {
+            document.getElementById('irs_vlp_image').style.opacity = "1";
           }
 
-          function flash_cache_stop() {
-            document.getElementById('flash_cache_image').style.opacity = "0";
+          function irs_vlp_stop() {
+            document.getElementById('irs_vlp_image').style.opacity = "0";
           }
-          flash_cache_stop()
+          irs_vlp_stop()
         </script>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://benattal.github.io/flash-cache/">
-          <span class="papertitle">Flash Cache: Reducing Bias in Radiance Cache Based Inverse Rendering</span>
+        <a href="https://www.sciencedirect.com/science/article/abs/pii/S105120042400424X">
+          <span class="papertitle">IRS Aided Visible Light Positioning with a Single LED Transmitter</span>
         </a>
         <br>
-				<a href="https://benattal.github.io/">Benjamin Attal</a>,
-        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-        <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-        <a href="https://phogzone.com/">Peter Hedman</a>, <br>
-				<strong>Jonathan T. Barron</strong>,
-        <a href="https://www.cs.cmu.edu/~motoole2/">Matthew O'Toole</a>,
-        <a href="https://pratulsrinivasan.github.io/">Pratul P. Srinivasan</a>
+				<strong>Efe Tarhan</strong>,
+        <a href="https://ieeexplore.ieee.org/author/37088960416">Furkan Kökdoğan</a>,
+        <a href="https://pratulsrinivasan.github.io/">Sinan Gezici</a>
         <br>
-        <em>ECCV</em>, 2024 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+        <em>ECCV</em>, 2024 &nbsp 
         <br>
-        <a href="https://benattal.github.io/flash-cache/">project page</a>
+        <a href="https://github.com/tarhanefe/ml-vlp-irs">repository</a>
         /
-        <a href="TODO">arXiv</a>
+        <a href="https://www.sciencedirect.com/science/article/abs/pii/S105120042400424X">paper</a>
         <p></p>
         <p>
-          A more physically-accurate inverse rendering system based on radiance caching for recovering geometry, materials, and lighting from RGB images of an object or scene.
+        A CRLB-based optimization technique of intelligent reflective surfaces for device localization using a single LED transmitter in indoor environments.
         </p>
       </td>
     </tr>
