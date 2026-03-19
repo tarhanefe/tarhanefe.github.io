@@ -134,11 +134,25 @@
       </td>
     </tr>
 
-    <tr>
+    <tr onmouseout="misensorkit_stop()" onmouseover="misensorkit_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
-          <img src='images/misensorkit.gif' width=100%>
+          <div class="two" id='misensorkit_image'><video  width=100% muted autoplay loop>
+          <source src="images/misensorkit_video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/misensorkit.png' width=100%>
         </div>
+        <script type="text/javascript">
+          function misensorkit_start() {
+            document.getElementById('misensorkit_image').style.opacity = "1";
+          }
+
+          function misensorkit_stop() {
+            document.getElementById('misensorkit_image').style.opacity = "0";
+          }
+          misensorkit_stop()
+        </script>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
         <a href="https://tarhanefe.github.io/MiSensorKit/">
